@@ -13,6 +13,7 @@
 
             Console.WriteLine(srednia(arr));
             
+            Console.WriteLine(maxValue(arr));
         }
 
         static int srednia(int[] arr)
@@ -24,6 +25,11 @@
             }
 
             return tmp / arr.Length;
+        }
+
+        static int maxValue(int[] arr)
+        {
+            return arr.Max();
         }
     }
 }
