@@ -2,5 +2,5 @@
 
 for (int i = 0; i < 3; i++)
 {
-    Console.WriteLine("Hello, Git!");
+    Console.WriteLine(i+1 + ". Hello, Git!");
 }
