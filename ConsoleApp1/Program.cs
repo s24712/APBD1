@@ -18,13 +18,13 @@
 
         static int srednia(int[] arr)
         {
-            int temp1 = 0;
+            int temp = 0;
             for (int i = 0; i < arr.Length; i++)
             {
-                tmp += arr[i];
+                temp += arr[i];
             }
 
-            return tmp / arr.Length;
+            return temp / arr.Length;
         }
 
         static int maxValue(int[] arr)
