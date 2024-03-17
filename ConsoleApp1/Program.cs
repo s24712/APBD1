@@ -18,7 +18,7 @@
 
         static int srednia(int[] arr)
         {
-            int tmp = 0;
+            int temp1 = 0;
             for (int i = 0; i < arr.Length; i++)
             {
                 tmp += arr[i];
